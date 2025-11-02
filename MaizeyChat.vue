@@ -108,9 +108,9 @@ const sendMessage = async () => {
   chatLog.value.push({ user: userMsg, maizey: data.response || data.error || 'No reply' })
   messageInput.value = ''
    // Update history display
-  if (showHistory.value) {
+//  if (showHistory.value) {
     await fetchHistory()
-  }
+//  }
 }
 
 
